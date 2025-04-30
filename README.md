@@ -13,7 +13,7 @@ The aim for this project is to answer the following research question: Which are
 
 
 
-Project Datasets:
+Data Description:
 
 To answer the research question, I will be using spatial datasets and ArcGIS Pro software to map the various social and geographic variables and conduct a weighted overlay analysis based on weights that will be determined using an analytical hierarchy process (AHP). The results of the analysis will show where areas of highest to lowest vulnerability are located across the county. For the analysis I will be using nine different variables (two physical variables, storm surge depth and area) and seven social variables which are based on common vulnerability criteria (percent of individual 65 years old and older, percent of people under 18 years of age, income, prevalence of COPD, coronary heart disease, stroke, and diabetes).
   
@@ -23,38 +23,32 @@ For the social variables I will be using data provided by the United States Cens
 
 The last remaining dataset that I will be using is the Center for Disease Control’s PLACES: Local Data for Better Health, which is at the Census Tract level to avoid patient identification.  This dataset will provide the percentage of prevalence for the four chronic diseases I will be including in my risk assessment, as these diseases present the most complications for individuals during a hazard event.  The size of this dataset is 4.09GB.  These are the sizes of the datasets as they were obtained, and they will likely change in size as the data will be isolated to the boundaries of the county, as some of this data includes data from other counties, and in the case of the PLACES dataset includes disease prevalence data from across the nation.
 
-
-
-
-How will the Data be Collected:
-
 None of the data that I will be using will be collected or created by me.  This data is provided by federal agencies (U.S. Census data, USGS, and the PLACES: Local Data for Better Health) or from the Volusia County, Florida GIS Data Portal (county boundary and storm surge inundation shapefiles).  Except for the U.S. Census data, all of the datasets are in the form of shapefiles or as a raster file (DEM).  Shapefiles are a file format that is used in spatial analysis, as are raster datasets.  The U.S. Census data is provided in two different data types, as a shapefile, which consists of georeferenced boundaries (Census Tracts, Block Groups, or Blocks) and a csv file that contains the actual census data.  To map the census data the csv file must be joined to the boundary shapefile, which is done within ArcGIS Pro or other spatial analysis software. 
 
 
 
-
-Data Management Roles:
+Roles and Responsibilities:
 
 I am the sole member of the research team.  All of the data management, data acquisition, data preservation, and data analysis will be performed by myself without any assistance from my committee chair, outside of an advisory role if I have any questions.  All of my data comes from federal and local governmental GIS data portals, and the project does not require any in-situ data collection, so there is no need for instrumentation maintenance or calibration.  All metadata creation has already been created by the data creators.  Quality control will be handled by myself as I verify that there are no missing values in the data, or that there are no data points that have been geocoded improperly.  For this project, as there are no associated funding sources, nor is it required for the capstone requirements, there will be no generation of a data management plan. As I am the only member of the research team, and not under the employment of another individual or organization, there is no need for a contingency plan. 
 
 
 
 
- Formal Data Management Requirements:
+Data Standards and metadata:
 
 There are no formal data management requirements concerning my research data.  I have not been informed by my department or committee chair of any departmental or institutional concerns that must be accounted for.  There are also no regulations concerning privacy issues surrounding my data, as privacy measures were already accounted for in the creation of the data by the federal agencies.  The data sets that are being used in this project include spatial data on physical geography features or flooding inundation, which has not privacy concerns attached to it.  The remaining data consists of United States Census data, which does not provide any details that can be attached to an individual, the same applies to the CDC data set (PLACES: Local Data for Better Health) as the disease prevalence data is at the Census Tract level, which is at too large of a scale to be able to identify where individuals with chronic illnesses live.
 
 
 
 
-Data Storage:
+Storage and security:
 
 The data will be stored on my personal computer as well as on a series of external hard drives that only I have access to.
 
 
 
 
-Data Backup Strategy:
+Access and data sharing:
 
 The data and the associated spatial analysis project folders will be stored on the hard drive of my laptop, which is where the spatial analysis will be conducted, and on three external solid state hard drives.  There is one primary external hard drive that the analyses will be performed from, to prevent any loss of data or completed analyses if the laptop has any malfunctions.  As analyses are completed, or iterations of analyses that are completed, from the primary external hard drive, copies of the updated project folder are saved to the laptop’s hard drive and the remaining two other external hard drives. No software packages are used in this process outside of the project folder, and its associated geodatabase, that is created by the spatial analysis software, Esri’s ArcGIS Pro.  As there are no other members of the research team, there data is not saved to a shared drive.  The project data folder, and its associated data folder where the data sets are stored, are not currently stored in a cloud-based system.  I have not tried compressing the files as a zipped folder and uploading to a DropBox or a similar platform.  I have not considered this option since I have four copies saved.  If I do decide to use a cloud-based system I will see if I can upload the data to a personal cloud storage, so that the data is not lost once I graduate from OSU.
 
